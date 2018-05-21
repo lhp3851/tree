@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 @EnableDiscoveryClient
+
 public class StudyApplication {
 
 	public static void main(String[] args) {
@@ -15,3 +16,4 @@ public class StudyApplication {
 	}
 
 }
+
