@@ -8,6 +8,7 @@
 */
 package study.lhp.application.service.Bo;
 
+
 import study.lhp.application.bean.CourseModel;
 
 /** 
@@ -17,6 +18,7 @@ import study.lhp.application.bean.CourseModel;
 * @date May 15, 2018 2:46:18 PM 
 *  
 */
+
 public interface CourseServiceBo {
 	CourseModel getCourse();
 }

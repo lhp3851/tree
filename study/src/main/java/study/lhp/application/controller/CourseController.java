@@ -16,13 +16,13 @@ import study.lhp.application.bean.CourseModel;
 import study.lhp.application.service.Bo.CourseServiceBo;
 
 @RestController
-@RequestMapping("/study")
+@RequestMapping(value ="/study" )
 public class CourseController {
 
 	@Autowired
 	private CourseServiceBo courseServiceBo;
 	
-	@RequestMapping("/course")
+	@RequestMapping(value="/course")
 	public CourseModel getcourse() {
 		CourseModel model = courseServiceBo.getCourse(); 
 		return model;

@@ -14,7 +14,6 @@ zuul:
       service-id: discovery
     study: ##这里的配置表示，访问/it/** 直接重定向到http://www.ityouknow.com/**
       path: /study/**
-      url: http://www.mi.com/
     authenticate: 
       path: /authenticate/**
       url: http://www.baidu.com/

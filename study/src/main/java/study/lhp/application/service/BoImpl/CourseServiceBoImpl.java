@@ -8,6 +8,8 @@
 */
 package study.lhp.application.service.BoImpl;
 
+import org.springframework.stereotype.Service;
+
 import study.lhp.application.bean.CourseModel;
 import study.lhp.application.service.Bo.CourseServiceBo;
 
@@ -18,6 +20,7 @@ import study.lhp.application.service.Bo.CourseServiceBo;
 * @date May 15, 2018 2:47:51 PM 
 *  
 */
+@Service
 public class CourseServiceBoImpl implements CourseServiceBo {
 
 	/* (non-Javadoc)
@@ -26,11 +29,11 @@ public class CourseServiceBoImpl implements CourseServiceBo {
 	@Override
 	public CourseModel getCourse() {
 		CourseModel model = new CourseModel();
-		model.setName("spring cloud");
-		model.setPrice("free");
-		model.setTeacher("Liu");
-		model.setClassProperty("IT");
-		return null;
+		model.setName("课程名字");
+		model.setPrice("课程价格");
+		model.setClassProperty("课程类别");
+		model.setTeacher("任课老师");
+		return model;
 	}
 
 }
