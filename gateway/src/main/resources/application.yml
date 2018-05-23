@@ -9,5 +9,13 @@ server:
   port: 8084
 zuul:
   routes:
-    service: /service/**
-    service2: /service2/**
+    api-a: 
+      path: /discovery/**
+      service-id: discovery
+    study: ##这里的配置表示，访问/it/** 直接重定向到http://www.ityouknow.com/**
+      path: /study/**
+    authenticate: 
+      path: /authenticate/**
+      url: http://www.baidu.com/
+
+
