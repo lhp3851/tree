@@ -28,4 +28,9 @@ public class CourseController {
 		return model;
 	}
 	
+	@RequestMapping(value="/greeting")
+	public String greeting(String greetings) {
+		return greetings;
+	}
+	
 }

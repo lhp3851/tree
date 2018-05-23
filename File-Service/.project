@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>discovery</name>
+	<name>File-Service</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.wst.common.project.facet.core.builder</name>
-<<<<<<< HEAD
-=======
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
->>>>>>> 3a2ca3f63079c3315df8c051367aaa7c5d0639ae
 			<arguments>
 			</arguments>
 		</buildCommand>

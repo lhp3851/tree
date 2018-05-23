@@ -13,6 +13,7 @@
         <module>authentication</module>
         <module>study</module>
         <module>gateway</module>
+        <module>File-Service</module>
     </modules>
 
     <!-- spring cloud 配置 -->
